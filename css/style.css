@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "goodfont";
+    src: url('../fonts/GOODFONT/goodfoot-webfont.eot');
+    src: url('../fonts/GOODFONT/goodfoot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GOODFONT/goodfoot-webfont.woff') format('woff'),
+         url('../fonts/GOODFONT/goodfoot-webfont.ttf') format('truetype'),
+         url('../fonts/GOODFONT/goodfoot-webfont.svg#good_footregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Luna";
+	src:url("http://www.myfontfree.com/data/110/l/luna2/Luna.ttf");
+}
+
+@font-face {
+    font-family: "aaargh";
+    src: url('../fonts/AAARGH/Aaargh-webfont.eot');
+    src: url('../fonts/AAARGH/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AAARGH/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/AAARGH/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/AAARGH/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 900px) {
+  .about-pic h1 {
+    font-size: 20px;
+  }
+}
+
+#wrapper {
+  margin: 0 auto;
+  text-align: center;
+  height: 2000px;
+  max-width: 90%;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  font-family: "goodfont";
+  padding: 5%;
+  text-align: center;
+}
+
+
+header img {
+  max-width: 90%;
+  padding: 0 0;
+}
+
+nav li, footer li {
+  list-style-type: none;
+  display: block;
+  font-family: "goodfont";
+  text-align: center;
+}
+
+nav a, footer a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover, footer a:hover {
+  color: pink;
+}
+
+/* top right bottom left
+CLOCK WISE */
+nav li {
+  display: inline-block;
+  padding: 0 3%;
+}
+
+.about-pic {
+  margin: 0 auto;
+  padding: 5% 3%;
+}
+
+.about-pic h1 {
+  font-family: "Luna";
+}
+
+.about-pic p {
+  font-family: "aaargh";
+  text-align: center;
+}
+
+.about-pic img {
+  float: left;
+  max-width: 35%;
+}
+
+img {
+  max-width: 90%;
+  padding: 3% 0;
+}
+
+footer img {
+  width: 40px;
+  padding: .5% 2%;
+}
